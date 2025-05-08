@@ -1,6 +1,6 @@
 # PyTorchFundamentals
 
-A hands-on PyTorch script exploring essential operations such as reshaping, masking, unsqueezing, tensor-to-numpy conversion, one-hot encoding, and probability selection with `gather`. Useful for beginners and intermediate developers looking to understand tensor behavior and indexing tricks.
+A hands-on PyTorch script experimenting with essential operations such as reshaping, masking, unsqueezing, tensor-to-numpy conversion, one-hot encoding, and probability selection with `gather`.
 
 File:
 - torch_examples.py — Core script demonstrating PyTorch fundamentals
