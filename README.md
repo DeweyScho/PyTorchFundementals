@@ -1,16 +1,17 @@
 # PyTorchFundamentals
 
-A collection of foundational examples and code snippets to help understand and practice core PyTorch concepts. Topics include tensors, autograd, model building, training loops, and optimizers.
+A hands-on PyTorch script exploring essential operations such as reshaping, masking, unsqueezing, tensor-to-numpy conversion, one-hot encoding, and probability selection with `gather`. Useful for beginners and intermediate developers looking to understand tensor behavior and indexing tricks.
 
-Files:
-- tensors.py — Basic tensor operations  
-- autograd_demo.py — Gradient tracking and backward pass  
-- simple_nn.py — Basic feedforward neural network  
-- optimizer_examples.py — Common optimizer usage  
-- training_loop.py — Manual and high-level training workflows
+File:
+- torch_examples.py — Core script demonstrating PyTorch fundamentals
 
-Install with command: pip install torch numpy
+Topics covered:
+- Tensor creation and reshaping: `reshape`, `view`, `unsqueeze`, `squeeze`
+- Numpy to torch conversion
+- One-hot encoding using `np.eye`
+- Probability gathering using `torch.gather`
+- Masking and indexing logic for tensor manipulation
 
-Run files individually using:
+Install with command:
 ```bash
-python filename.py
+pip install torch numpy
